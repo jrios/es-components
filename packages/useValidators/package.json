@@ -1,0 +1,28 @@
+{
+  "name": "@es-hooks/useValidators",
+  "version": "1.0.0",
+  "description": "React hook for using generic validators in a component",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react hooks",
+    "custom hooks"
+  ],
+  "author": "Willis Towers Watson - Individual Marketplace",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "next"
+  },
+  "devDependencies": {
+    "babel-preset-wtw-im": "^2.3.1",
+    "jest": "^23.6.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-testing-library": "^5.3.1"
+  }
+}
